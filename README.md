@@ -1,1 +1,1 @@
-# new-repo-template
+# astra-automation-2310
