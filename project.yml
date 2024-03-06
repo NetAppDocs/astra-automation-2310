@@ -28,7 +28,7 @@ settings:
       url: /astra-automation-2108
 sidebar:
   entries:
-    - title: Astra Control Automation docs
+    - title: Astra Control Automation 23.10 docs
       url: /index.html
     - section: rn
     - section: intro
