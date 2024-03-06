@@ -1,0 +1,64 @@
+---
+sidebar: sidebar
+permalink: workflows/wf_restore_app_backup.html
+keywords:
+summary: You can restore an application by creating a new app from a backup.
+---
+
+= Restore an app from a backup
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can restore an application by creating a new app from a backup.
+
+=== 1. Select the app to restore
+
+Perform the workflow link:wf_list_man_apps.html[List the apps] and select application you want to clone. Several of the resource values are needed for the REST call used to restore the app.
+
+=== 2. Select the backup to use
+
+Perform the workflow link:wf_list_backups.html[List the backups] and select backup you want to use.
+
+=== 3. Restore the app
+
+Perform the following REST API call. You must provide the ID for either a backup (as shown below) or snapshot.
+
+[cols="25,75"*,options="header"]
+|===
+|HTTP method
+|Path
+|PUT
+|/accounts/{account_id}/k8s/v2/apps/{app_id}
+|===
+
+===== Additional input parameters
+
+In addition to the parameters common with all REST API calls, the following parameters are also used in the curl examples for this step.
+
+[cols="25,10,10,55"*,options="header"]
+|===
+|Parameter
+|Type
+|Required
+|Description
+|JSON
+|Body
+|Yes
+|Provides the parameters for the cloned app. See the example below.
+|===
+
+===== JSON input example
+[source,json]
+{
+  "type": "application/astra-app",
+  "version": "2.0",
+  "backupID": "e24515bd-a28e-4b28-b832-f3c74dbf32fb"
+}
+
+===== Curl example: Restore an app in place from a backup
+[source,curl]
+curl --location -i --request PUT 'https://astra.netapp.io/accounts/<ACCOUNT_ID>/k8s/v2/apps/<APP_ID>' --header 'Content-Type: application/astra-app+json' --header '*/*' --header 'ForceUpdate: true' --header 'Authorization: Bearer <API_TOKEN>' --data @JSONinput

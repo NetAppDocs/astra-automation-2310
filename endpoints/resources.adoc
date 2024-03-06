@@ -1,0 +1,239 @@
+---
+sidebar: sidebar
+permalink: endpoints/resources.html
+keywords: resources, endpoints, core, managed application, topology, openapi, openmetrics
+summary: You can access the resources provided through the Astra Control REST API to automate an Astra deployment. Each resource is available through one or more endpoints. An introduction to the REST resources you can use as part of an automation deployment is provided on this page.
+---
+
+= Resources and endpoints
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can access the resources provided through the Astra Control REST API to automate an Astra deployment. Each resource is available through one or more endpoints. An introduction to the REST resources you can use as part of an automation deployment is provided below.
+
+[NOTE]
+The format of the path and full URL used to access the Astra Control resources is based on several values. See link:../rest-core/url_format.html[URL format] for more information. Also see link:../get-started/online_api_ref.html[Online API reference] for more details about using the Astra resources and endpoints.
+
+== Summary of Astra Control REST resources
+
+The primary resource endpoints provided in the Astra Control REST API are organized in three categories. Each resource can be accessed with the full set of CRUD operations (create, read, update, delete) except where noted.
+
+The *Release* column indicates the Astra release when the resource was first introduced. This field is bolded for the resources most recently added to the REST API.
+
+=== Core resources
+
+The core resource endpoints provide the foundational services needed to establish and maintain the Astra runtime environment.
+
+[cols="20,10,70"*,options="header"]
+|===
+|Resource
+|Release
+|Description
+
+|Account
+|21.12
+|The account resources allow you to manage the isolated tenants within the multitenant Astra Control deployment environment.
+
+|ASUP
+|21.08
+|The ASUP resources represent the AutoSupport bundles forwarded to NetApp support.
+
+|Certificate
+|22.08
+|The certificate resources represent the installed certificates used for strong authentication for outgoing connections.
+
+|Credential
+|21.04
+|The credential resources contain security related information which can be used with Astra users, clusters, buckets, and storage backends.
+
+|Entitlement
+|21.08
+|The entitlement resources represent the features and capacities available for an account based on the active licenses and subscriptions.
+
+|Event
+|21.04
+|The event resources represent all the events occurring in the system, including the subset classified as notifications.
+
+|Execution hook
+|21.12
+|The execution hook resources represent custom scripts that you can run either before or after a snapshot of a managed app is performed.
+
+|Feature
+|21.08
+|The feature resources represent selected Astra features that you can query to determine if they are enabled or disabled in the system. Access is limited to read-only.
+
+|Group
+|22.08
+|The group resources represent the Astra groups and associated resources. Only LDAP groups are supported in the current release.
+
+|Hook source
+|21.12
+|The hook source resources represent the actual source code used with an execution hook. Separating the source code from the execution control has several benefits such as allowing the scripts to be shared.
+
+|LDAP group
+|22.1
+|You can list the groups within the configured LDAP server. Access to the LDAP groups is read-only.
+
+|LDAP user
+|22.11
+|You can list the users within the configured LDAP server. Access to the LDAP users is read-only.
+
+|License
+|21.08
+|The license resources represent the licenses available for an Astra account.
+
+|Notification
+|21.04
+|The notification resources represent Astra events that have a notification destination. Access is provided on a per-user basis.
+
+|Package
+|22.04
+|The package resources provide registration of and access to package definitions. Software packages consist of various components including files, images, and other artifacts.
+
+|Permission
+|23.06
+|The permission resources represent permissions related to operations within the system. The API provides read-only access to the permissions.
+
+|Role
+|23.06
+|The role resources represent roles available in the system. The API provides read-only access to the roles.
+
+|Role binding
+|21.04
+|The role binding resources represent the relationships between specific pairs of users and accounts. In addition to the linkage between the two, a set of permissions is specified for each through a specific role.
+
+|Setting
+|21.08
+|The setting resources represent a collection of key-value pairs which describe a feature for a specific Astra account.
+
+|Subscription
+|21.08
+|The subscription resources represent the active subscriptions for an Astra account.
+
+|Task
+|22.11
+|The task resources provide read-only access to managed task and can be used to display the status of the internal long-running tasks.
+
+|Token
+|21.04
+|The token resources represent the tokens available to programmatically access the Astra Control REST API.
+
+|Unread notification
+|21.04
+|The unread notification resources represent notifications assigned to a specific user but not yet read.
+
+|Upgrade
+|22.04
+|The upgrade resources provide access to software components and the ability to initiate upgrades.
+
+|User
+|21.04
+|The user resources represent Astra users able to access the system based on their defined role.
+|===
+
+=== Managed application resources
+
+The managed application resource endpoints provide access to the managed Kubernetes applications.
+
+[cols="20,10,70"*,options="header"]
+|===
+|Resource
+|Release
+|Description
+
+|Application asset
+|21.04
+|The application asset resources represent internal collections of state information needed to manage the Astra applications.
+
+|Application backup
+|21.04
+|The application backup resources represent backups of the managed applications.
+
+|Application snapshot
+|21.04
+|The application snapshot resources represent snapshots of the managed applications.
+
+|Execution hook override
+|21.12
+|The execution hook override resources allow you to disable the preloaded NetApp default execution hooks for specific applications as needed.
+
+|Schedule
+|21.04
+|The schedule resources represent data protection operations that are scheduled for the managed applications as part of a data protection policy.
+|===
+
+=== Topology resources
+
+The topology resource endpoints provide access to the unmanaged applications and storage resources.
+
+[cols="20,10,70"*,options="header"]
+|===
+|Resource
+|Release
+|Description
+
+|API resource
+|22.11
+|The API resource endpoints provide read-only access to the Kubernetes resources in a specific managed cluster.
+
+|App
+|21.04
+|The app resources represent all of the Kubernetes applications, including those unmanaged by Astra.
+
+|AppMirror
+|22.08
+|The AppMirror resources represent the AppMirror resources to provide for the management of application mirroring relationships.
+
+|Bucket
+|21.08
+|The bucket resources represent the S3 cloud buckets used to store backups of the applications managed by Astra.
+
+|Cloud
+|21.08
+|The cloud resources represent clouds that Astra clients can connect to in order to manage clusters and applications.
+
+|Cluster
+|21.08
+|The cluster resources represent the Kubernetes clusters not managed by Kubernetes.
+
+|Cluster node
+|21.12
+|The cluster node resources provide additional resolution by allowing you to access the individual nodes within a Kubernetes cluster.
+
+|Managed cluster
+|21.08
+|The managed cluster resources represent the Kubernetes clusters currently managed by Kubernetes.
+
+|Namespace
+|21.12
+|The namespace resources provide access to the namespaces used within a Kubernetes cluster.
+
+|Storage backend
+|21.08
+|The storage backend resources represent providers of storage services that can be used by the Astra managed clusters and applications.
+
+|Storage class
+|21.08
+|The storage class resources represent different classes or types of storage discovered and available to a specific managed cluster.
+
+|Volume
+|21.04
+|The volume resources represent the Kubernetes storage volumes associated with the managed applications.
+|===
+
+== Additional resources and endpoints
+
+There are several additional resources and endpoints that you can use to support an Astra deployment.
+
+[NOTE]
+These resources and endpoints are not currently included with the Astra Control REST API reference documentation.
+
+OpenAPI::
+The OpenAPI endpoints provide access to the current OpenAPI JSON document and other related resources.
+
+OpenMetrics::
+The OpenMetrics endpoints provide access to the account metrics through the OpenMetrics resource. Support is available with the Astra Control Center deployment model.

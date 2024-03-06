@@ -1,0 +1,62 @@
+---
+sidebar: sidebar
+permalink: get-started/get_api_token.html
+keywords: token, obtain token
+summary: You need to obtain an Astra API token to use the Astra Control REST API.
+---
+
+= Get an API token
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You need to obtain an Astra API token to use the Astra Control REST API.
+
+== Overview
+
+An API token identifies the caller to Astra and must be included with every REST API call.
+
+* You need to generate an API token using the Astra web user interface.
+* The procedure for generating a token is the same for both Astra deployment models. Only the URL used to access Astra is different.
+* The user identity carried with the token and associated permissions are determined by the user that created the token.
+* The token must be included in the `Authorization` HTTP request header.
+* A token never expires after it is created.
+* You can revoke a token at the Astra web user interface.
+
+.Related information
+
+* link:../additional/revoke_token.html[Revoke an API token]
+
+== Create an Astra API token
+
+The following steps describe how to create an Astra API token.
+
+.Before you begin
+
+You need credentials for an Astra account.
+
+.About this task
+
+This task generates an API token at the Astra web interface. You should also retrieve the account ID which is also needed when making an API calls.
+
+.Steps
+
+. Sign in to Astra using your account credentials as follows:
++
+* Astra Control Service: link:https://astra.netapp.io[https://astra.netapp.io^]
+* Astra Control Center: Use the URL for your local environment as established during installation
+
+. Click the figure icon at the top right of the page and select *API access*.
+
+. Click *Generate API token* on the page and then click *Generate API token* in the popup window.
+
+. Click the icon to copy the token string to the clipboard and save it in your editor.
+
+. Copy and save the account id which is available on the same page.
+
+.After you finish
+
+When you access the Astra Control REST API through curl or a programming language, you must include the API bearer token in the HTTP `Authorization` request header.

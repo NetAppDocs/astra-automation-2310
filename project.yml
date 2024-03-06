@@ -1,12 +1,101 @@
+---
 settings:
-  name: "Product Name"
+  name: Astra Automation
   internal:
     pdf_enabled: true
+    api_enabled: true
   prod:
     pdf_enabled: true
-  # harmony_enabled: true
-
-sidebar: 
+    harmony_enabled: true
+    api_enabled: true
+  rss_page: "rn/whats_new.html"
+  versions:
+    - version-number: "23.10"
+      url: /astra-automation
+    - version-number: "23.07"
+      url: /astra-automation-2307
+    - version-number: "23.04"
+      url: /astra-automation-2304      
+    - version-number: "22.11"
+      url: /astra-automation-2211
+    - version-number: "22.08"
+      url: /astra-automation-2208
+    - version-number: "22.04"
+      url: /astra-automation-2204
+    - version-number: "21.12"
+      url: /astra-automation-2112 
+    - version-number: "21.08"
+      url: /astra-automation-2108
+sidebar:
   entries:
-  - title: Legal notices
-    url: /legal-notices.html
+    - title: Astra Control Automation docs
+      url: /index.html
+    - section: rn
+    - section: intro
+    - section: get-started
+    - title: Astra REST implementation
+      entries:
+         - section: rest-core
+         - section: endpoints
+         - section: additional
+    - section: workflows_infra
+    - section: workflows
+    - section: python
+    - section: reference
+    - section: information
+    - title: Legal notices
+      url: /legal-notices.html
+product-family:
+  name: Astra
+  repo: astra-family
+
+homepage:
+  tiles:
+    - title: Get started
+      links:
+        - title: Overview
+          url: /intro/overview.html
+        - title: Before you begin
+          url: /get-started/before_get_started.html
+        - title: Get an API token
+          url: /get-started/get_api_token.html
+        - title: First API call
+          url: /get-started/first_call.html
+    - title: Core REST design
+      links:
+        - title: REST web services
+          url: /rest-core/rest_web_services.html
+        - title: HTTP details
+          url: /rest-core/http_details.html
+        - title: URL format
+          url: /rest-core/url_format.html
+    - title: Additional considerations
+      links:
+        - title: RBAC security
+          url: /additional/rbac.html
+        - title: Work with collections
+          url: /additional/work_with_collections.html
+        - title: Diagnostics and support
+          url: /additional/diagnostics_support.html
+        - title: Revoke an API token
+          url: /additional/revoke_token.html
+    - title: Resources
+      links:
+        - title: REST resources and collections
+          url: /rest-core/resources_collections.html
+        - title: Summary of Astra API resources
+          url: /endpoints/resources.html
+    - title: Workflows
+      links:
+        - title: Preparation
+          url: /get-started/prepare_to_use_workflows.html
+        - title: Infrastructure workflows
+          url: /workflows_infra/workflows_infra_before.html
+        - title: Management workflows
+          url: /workflows/workflows_before.html
+    - title: Python
+      links:
+        - title: NetApp Astra Control Python SDK
+          url: /python/astra_toolkits.html
+        - title: Use Python natively
+          url: /python/python_before.html

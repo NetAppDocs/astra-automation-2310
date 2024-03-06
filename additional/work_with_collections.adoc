@@ -1,0 +1,36 @@
+---
+sidebar: sidebar
+permalink: additional/work_with_collections.html
+keywords: collections, filtering, pagination, count
+summary: The Astra Control REST API provides several different ways to access resource collections through the defined query parameters.
+---
+
+= Work with collections
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+The Astra Control REST API provides several different ways to access resource collections through the defined query parameters.
+
+.Selecting values
+
+You can specify which key-value pairs should be returned for each resource instance using the `include` parameter. All of the instances are returned in the response body.
+
+.Filtering
+
+Collection resource filtering allows an API user to specify conditions which determine if a resource is returned in the response body. The `filter` parameter is used to indicate the filtering condition.
+
+.Sorting
+
+Collection resource sorting allows an API user to specify the order in which resources are returned in the response body. The `orderBy` parameter is used to indicate the filtering condition.
+
+.Pagination
+
+You can enforce pagination by restricting the number of resource instances returned on a request using the `limit` parameter.
+
+.Count
+
+If you include the Boolean parameter `count` set to `true`, the number of resources in the returned array for a given response is provided in the metadata section.
