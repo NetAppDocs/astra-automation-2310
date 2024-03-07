@@ -231,10 +231,6 @@ The OpenAPI endpoints provide access to the current OpenAPI JSON document and ot
 OpenMetrics support::
 The OpenMetrics endpoints provide access to account metrics through the OpenMetrics resource.
 
-.Related information
-
-* https://docs.netapp.com/us-en/astra-control-center-2108/release-notes/whats-new.html[Astra Control Center 21.08: What's new^]
-
 == 15 April 2021 (21.04)
 
 This release includes the following new features and enhancements.
