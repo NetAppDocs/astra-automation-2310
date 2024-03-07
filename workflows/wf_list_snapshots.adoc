@@ -1,0 +1,85 @@
+---
+sidebar: sidebar
+permalink: workflows/wf_list_snapshots.html
+keywords:
+summary: You can list the snapshots that have been taken for a specific application.
+---
+
+= List the snapshots
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can list the snapshots that have been taken for a specific application.
+
+=== Before you begin
+
+You must have the ID of the app you want to list the snapshots for. If needed you can use the workflow link:wf_list_man_apps.html[List the apps] to locate the application.
+
+=== 1. List the snapshots
+
+Perform the following REST API call to list the snapshots.
+
+[cols="25,75"*,options="header"]
+|===
+|HTTP method
+|Path
+|GET
+|/accounts/{account_id}/k8s/v1/apps/{app_id}/appSnaps
+|===
+
+===== Additional input parameters
+
+In addition to the parameters common with all REST API calls, the following parameters are also used in the curl examples for this step.
+
+[cols="15,10,10,65"*,options="header"]
+|===
+|Parameter
+|Type
+|Required
+|Description
+|app id
+|Path
+|Yes
+|Identifies the application owning the listed snapshots.
+|count
+|Query
+|No
+|If `count=true` the number of snapshots is included in the metadata section of the response.
+|===
+
+===== Curl example: Return all snapshots for the app
+[source,curl]
+curl --location -i --request GET 'https://astra.netapp.io/accounts/<ACCOUNT_ID>/k8s/v1/apps/<APP_ID>/appSnaps' --header 'Accept: */*' --header 'Authorization: Bearer <API_TOKEN>'
+
+===== Curl example: Return all snapshots for the app and the count
+[source,curl]
+curl --location -i --request GET 'https://astra.netapp.io/accounts/<ACCOUNT_ID>/k8s/v1/apps/<APP_ID>/appSnaps?count=true' --header 'Accept: */*' --header 'Authorization: Bearer <API_TOKEN>'
+
+===== JSON output example
+[source,json]
+{
+    "items": [
+        {
+            "type": "application/astra-appSnap",
+            "version": "1.1",
+            "id": "1ce34da4-bb0a-4926-b925-4a5d85dda8c2",
+            "hookState": "success",
+            "metadata": {
+                "createdBy": "a530e865-23e8-4e2e-8020-e92c419a3867",
+                "creationTimestamp": "2022-10-30T22:44:20Z",
+                "modificationTimestamp": "2022-10-30T22:44:20Z",
+                "labels": []
+            },
+            "snapshotAppAsset": "0ebfe3f8-40ed-4bdc-88c4-2144fbda85a0",
+            "snapshotCreationTimestamp": "2022-10-30T22:44:33Z",
+            "name": "snapshot-david-1",
+            "state": "completed",
+            "stateUnready": []
+        }
+    ],
+    "metadata": {}
+}

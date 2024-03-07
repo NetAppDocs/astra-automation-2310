@@ -1,0 +1,249 @@
+---
+sidebar: sidebar
+permalink: rn/whats_new.html
+keywords: whats new, enhancements, new features
+summary: NetApp regularly updates the Astra Control REST API to bring you new features, enhancements, and bug fixes.
+---
+
+= What's new with the Astra Control REST API
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+NetApp regularly updates the Astra Control REST API to bring you new features, enhancements, and bug fixes.
+
+== 7 November 2023 (23.10)
+
+Both Astra Control Service and Astra Control Center have been updated with the 23.10 release. There are selective enhancements to the REST API to support the new features.
+
+=== Expanded storage backends
+
+You can enable backup and restore operations for `ontap-nas-economy` storage backends.
+
+=== Immutable backups
+
+Astra Control now supports unalterable, read-only backups as an additional security layer against malware and other threats.
+
+=== Enhanced control over execution hooks
+
+Beginning with this release, execution hooks functionality can be enabled or disabled for additional security (it is disabled by default). If you have not yet created execution hooks for use with Astra Control, you need to enable the execution hooks feature to begin creating hooks. If you created execution hooks prior to this release, the execution hooks functionality stays enabled and you can use hooks as you would normally.
+
+== 27 July 2023 (23.07)
+
+This release includes selective enhancements to the REST API. Both Astra Control Service and Astra Control Center have been updated with the 23.07 release.
+
+=== Clone and replication operations
+
+The clone operation now supports live clones only (the current state of the managed application). To clone from a snapshot or backup, you need to use the restore operation. Also, applications can now be replicated between ONTAP storage backends within the same Kubernetes cluster.
+
+=== Expanded storage backends
+
+Additional storage backends can now be used with Astra Control Center including:
+
+* NetApp MetroCluster in a stretch configuration
+* https://longhorn.io/[Longhorn^] 1.5.0 and later
+
+=== New execution hook type
+
+The new execution hook type *post-failover* is available with Astra Control Center.
+
+== 27 June 2023 (23.06)
+
+This release includes selective updates to the REST API.
+
+=== Azure Marketplace
+
+The Azure Marketplace subscriptions are now billed per hour instead of per minute. Also see https://docs.netapp.com/us-en/astra-control-service/use/set-up-billing.html[Set up billing^].
+
+=== Restic optimization
+
+You can enable performance optimization for restic backups using the flag `useResticParallel` in the new `astra.datamover` settings API resource. When set to `true`, the number of `backendConnections` that restic uses is increased when backing up large volumes to an Azure container. For volumes of 1TB through 4TB, 128 connections are used. For volumes larger than 4TB, 512 backend connections are used.
+
+== 30 May 2023 (23.05)
+
+This release includes selective updates to the REST API.
+
+=== Selective restore operations
+
+You can select the destination storage class during restore or clone operations.
+
+=== Enable dynamic ANF pools for self-managed clusters
+
+When backing up a managed app in a private on-premises cluster that has an ANF storage backend, you can now enable the dynamic ANF pools feature by providing a subscription ID. See link:../workflows_infra/wf_enable_anf_dyn_pools.html[Enable dynamic ANF pools] for more information.
+
+== 25 April 2023 (23.04)
+
+This release includes selective updates to the REST API.
+
+=== Selective restore operations
+
+You can selectively include or exclude application resources during restore operations. This is done using a filter rule based on a specific namespace, name, label, or GroupVersionKind value.
+
+=== Support for data-only applications
+
+Support for managing applications has been extended to data-only apps.
+
+//=== Enhanced execution hook use (ACC)
+
+== 17 January 2023 (23.01)
+
+This release includes a minor update to the REST API.
+
+=== Enhanced execution hooks functionality with filters
+
+When using execution hooks, you can now add filters to control which containers a hook will match to. If you create multiple filters for a single execution hook, they are combined with a logical AND operator. You can define up to 10 active filters per execution hook.
+
+== 22 November 2022 (22.11)
+
+This release includes an expansion and update of the REST API as well as enhanced namespace and LDAP support.
+
+=== New and enhanced Astra resources
+
+Four new resources types have been added: *apiResource*, *ldapGroup*, *ldapUser*, and *task*. In addition, several existing resources and endpoints have been enhanced.
+
+=== Monitoring support for long-running tasks
+
+The new task endpoints provide access to managed task resources and can be used to display the status of internal long-running tasks.
+
+=== Enhanced namespace usage scenarios
+
+Support has been added for apps that span multiple namespaces as well as cluster resources associated with namespace-qualified resources.
+
+=== Expanded cloud subscriptions
+
+Multiple account subscriptions can now be added for each of the cloud providers.
+
+=== Additional workflows
+
+Additional workflows illustrating the Astra Control REST API have been added. See link:../workflows_infra/workflows_infra_before.html[Infrastructure workflows] and link:../workflows/workflows_before.html[Management workflows] for more information.
+
+.Related information
+
+* https://docs.netapp.com/us-en/astra-control-center-2211/release-notes/whats-new.html[Astra Control Center 22.11: What's new^]
+
+== 10 August 2022 (22.08)
+
+This release includes an expansion and update of the REST API as well as enhanced security and administrative features.
+
+=== New and enhanced Astra resources
+
+Three new resources types have been added: *Certificate*, *Group*, and *AppMirror*. In addition, the versions of several existing resources have been updated.
+
+=== LDAP authentication
+
+You can optionally configure Astra Control Center to integrate with an LDAP server to authenticate selected Astra users. See link:../workflows_infra/ldap_prepare.html[LDAP configuration] for more information.
+
+=== Enhanced execution hook
+
+Support for execution hooks was added with the Astra Control 21.12 release. In addition to the existing pre-snapshot and post-snapshot execution hooks, you can now configure the following types of execution hooks with the 22.08 release:
+
+* Pre-backup
+* Post-backup
+* Post-restore
+
+Astra Control now also allows same script to be used for multiple execution hooks.
+
+=== Application replication using SnapMirror
+
+You can now replicate data and application changes among clusters using NetApp SnapMirror technology. This enhancement can be used to improve your business continuity and recovery capabilities.
+
+.Related information
+
+* https://docs.netapp.com/us-en/astra-control-center-2208/release-notes/whats-new.html[Astra Control Center 22.08: What's new^]
+
+== 26 April 2022 (22.04)
+
+This release includes an expansion and update of the REST API as well as enhanced security and administrative features.
+
+=== New and enhanced Astra resources
+
+Two new resources types have been added: *Package* and *Upgrade*. In addition, the versions of several existing resources have been upgraded.
+
+=== Enhanced RBAC with namespace granularity
+
+When binding a role to an associated user, you can limit the namespaces the user has access to. See the *Role Binding API* reference and link:../additional/rbac.html[RBAC security] for more information.
+
+=== Bucket removal
+
+You can remove a bucket when it is no longer needed or is not functioning properly.
+
+=== Support for Cloud Volumes ONTAP
+
+Cloud Volumes ONTAP is now supported as a storage backend.
+
+=== Additional product enhancements
+
+There are several additional enhancements to the two Astra Control product implementations, including:
+
+* Generic ingress for Astra Control Center
+* Private cluster in AKS
+* Support for Kubernetes 1.22
+* Support for VMware Tanzu portfolio
+
+See the *What's new* page at the Astra Control Center and Astra Control Service documentation sites.
+
+.Related information
+
+* https://docs.netapp.com/us-en/astra-control-center-2204/release-notes/whats-new.html[Astra Control Center 22.04: What's new^]
+
+== 14 December 2021 (21.12)
+
+This release includes an expansion of the REST API along with a change to the documentation structure to better support the evolution of Astra Control through the future release updates.
+
+=== Separate Astra Automation documentation for each release of Astra Control
+
+Every release of Astra Control includes a distinct REST API that has been enhanced and tailored to the features of the specific release. The documentation for each release of the Astra Control REST API is now available at its own dedicated web site along with the associated GitHub content repository. The main doc site https://docs.netapp.com/us-en/astra-automation/[Astra Control Automation^] always contains the documentation for the most current release. See link:../aa-earlier-versions.html[Earlier versions of Astra Control Automation documentation] for information about prior releases.
+
+=== Expansion of the REST resource types
+
+The number of REST resource types has continued to expand with an emphasis on execution hooks and storage backends. The new resources include: account, execution hook, hook source, execution hook override, cluster node, managed storage backend, namespace, storage device, and storage node. See link:../endpoints/resources.html[Resources] for more information.
+
+=== NetApp Astra Control Python SDK
+
+NetApp Astra Control Python SDK is an open source package that makes it easier to develop automation code for your Astra Control environment. At the core is the Astra SDK which includes a set of classes to abstract the complexity of the REST API calls. There is also a toolkit script to execute specific administrative tasks by wrapping and abstracting the Python classes. See link:../python/astra_toolkits.html[NetApp Astra Control Python SDK] for more information.
+
+.Related information
+
+* https://docs.netapp.com/us-en/astra-control-center-2112/release-notes/whats-new.html[Astra Control Center 21.12: What's new^]
+
+== 5 August 2021 (21.08)
+
+This release includes the introduction of a new Astra deployment model and a major expansion of the REST API.
+
+=== Astra Control Center deployment model
+
+In addition to the existing Astra Control Service offering provided as a public cloud service, this release also includes the Astra Control Center on-premises deployment model. You can install Astra Control Center at your site to manage your local Kubernetes environment. The two Astra Control deployment models share the same REST API, with minor differences noted as needed in the documentation.
+
+=== Expansion of the REST resource types
+
+The number of resources accessible through the Astra Control REST API has greatly expanded, with many of the new resources providing a foundation for the on-premises Astra Control Center offering. The new resources include: ASUP, entitlement, feature, license, setting, subscription, bucket, cloud, cluster, managed cluster, storage backend, and storage class. See link:../endpoints/resources.html[Resources] for more information.
+
+=== Additional endpoints supporting an Astra deployment
+
+In addition to the expanded REST resources, there are several other new API endpoints available to support an Astra Control deployment.
+
+OpenAPI support::
+The OpenAPI endpoints provide access to the current OpenAPI JSON document and other related resources.
+
+OpenMetrics support::
+The OpenMetrics endpoints provide access to account metrics through the OpenMetrics resource.
+
+== 15 April 2021 (21.04)
+
+This release includes the following new features and enhancements.
+
+=== Introduction of the REST API
+
+The Astra Control REST API is available for use with the Astra Control Service offering. It has been created based on REST technologies and current best practices. The API provides a foundation for the automation of your Astra deployments and includes the following features and benefits.
+
+Resources::
+There are fourteen REST resource types available.
+
+API token access::
+Access to the REST API is provided through an API access token which you can generate at the Astra web user interface. The API token provides secure access to the API.
+
+Support for collections::
+There is a rich set of query parameters which can be used to access the resources collections. Some of the supported operations include filtering, sorting, and pagination.
