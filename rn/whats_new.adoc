@@ -122,7 +122,7 @@ Additional workflows illustrating the Astra Control REST API have been added. Se
 
 .Related information
 
-* https://docs.netapp.com/us-en/astra-control-center/release-notes/whats-new.html[Astra Control Center: What's new^]
+* https://docs.netapp.com/us-en/astra-control-center-2211/release-notes/whats-new.html[Astra Control Center 22.11: What's new^]
 
 == 10 August 2022 (22.08)
 
