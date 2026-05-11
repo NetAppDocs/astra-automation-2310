@@ -5,6 +5,7 @@ settings:
   internal:
     pdf_enabled: true
     api_enabled: true
+    api_standardize: false
   prod:
     pdf_enabled: true
     harmony_enabled: true
