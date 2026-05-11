@@ -7,7 +7,8 @@
           "category": "Account",
           "filename": "post-accounts.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new account"
         }
       },
       "get": {
@@ -16,7 +17,8 @@
           "category": "Account",
           "filename": "get-accounts.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all accounts"
         }
       }
     },
@@ -27,7 +29,8 @@
           "category": "Account",
           "filename": "get-accounts-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an account"
         }
       },
       "put": {
@@ -36,7 +39,8 @@
           "category": "Account",
           "filename": "put-accounts-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify an account"
         }
       },
       "delete": {
@@ -45,7 +49,8 @@
           "category": "Account",
           "filename": "delete-accounts-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete an account"
         }
       }
     },
@@ -56,7 +61,8 @@
           "category": "Metrics",
           "filename": "get-accounts-metrics.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve all metrics for an account"
         }
       }
     },
@@ -67,7 +73,8 @@
           "category": "ASUP",
           "filename": "post-accounts-core-v1-asups.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new ASUP resource"
         }
       },
       "get": {
@@ -76,7 +83,8 @@
           "category": "ASUP",
           "filename": "get-accounts-core-v1-asups.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all ASUP resources"
         }
       }
     },
@@ -87,7 +95,8 @@
           "category": "ASUP",
           "filename": "get-accounts-core-v1-asups-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an ASUP resource"
         }
       }
     },
@@ -98,7 +107,8 @@
           "category": "Certificate",
           "filename": "post-accounts-core-v1-certificates.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new certificate"
         }
       },
       "get": {
@@ -107,7 +117,8 @@
           "category": "Certificate",
           "filename": "get-accounts-core-v1-certificates.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all certificates"
         }
       }
     },
@@ -118,7 +129,8 @@
           "category": "Certificate",
           "filename": "get-accounts-core-v1-certificates-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a certificate"
         }
       },
       "put": {
@@ -127,7 +139,8 @@
           "category": "Certificate",
           "filename": "put-accounts-core-v1-certificates-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a certificate"
         }
       },
       "delete": {
@@ -136,7 +149,8 @@
           "category": "Certificate",
           "filename": "delete-accounts-core-v1-certificates-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a certificate"
         }
       }
     },
@@ -147,7 +161,8 @@
           "category": "Credential",
           "filename": "post-accounts-core-v1-credentials.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new credential"
         }
       },
       "get": {
@@ -156,7 +171,8 @@
           "category": "Credential",
           "filename": "get-accounts-core-v1-credentials.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all credentials"
         }
       }
     },
@@ -167,7 +183,8 @@
           "category": "Credential",
           "filename": "get-accounts-core-v1-credentials-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a credential"
         }
       },
       "put": {
@@ -176,7 +193,8 @@
           "category": "Credential",
           "filename": "put-accounts-core-v1-credentials-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a credential"
         }
       },
       "delete": {
@@ -185,7 +203,8 @@
           "category": "Credential",
           "filename": "delete-accounts-core-v1-credentials-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a credential"
         }
       }
     },
@@ -196,7 +215,8 @@
           "category": "Entitlement",
           "filename": "get-accounts-core-v1-entitlements.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all entitlements"
         }
       }
     },
@@ -207,7 +227,8 @@
           "category": "Entitlement",
           "filename": "get-accounts-core-v1-entitlements-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an entitlement"
         }
       }
     },
@@ -218,7 +239,8 @@
           "category": "Group",
           "filename": "post-accounts-core-v1-groups.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new group"
         }
       },
       "get": {
@@ -227,7 +249,8 @@
           "category": "Group",
           "filename": "get-accounts-core-v1-groups.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all groups"
         }
       }
     },
@@ -238,7 +261,8 @@
           "category": "Group",
           "filename": "get-accounts-core-v1-groups-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a group"
         }
       },
       "put": {
@@ -247,7 +271,8 @@
           "category": "Group",
           "filename": "put-accounts-core-v1-groups-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a group"
         }
       },
       "delete": {
@@ -256,7 +281,8 @@
           "category": "Group",
           "filename": "delete-accounts-core-v1-groups-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a group"
         }
       }
     },
@@ -267,7 +293,8 @@
           "category": "Role Binding",
           "filename": "post-accounts-core-v1-groups-rolebindings.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new role binding for a group"
         }
       },
       "get": {
@@ -276,7 +303,8 @@
           "category": "Role Binding",
           "filename": "get-accounts-core-v1-groups-rolebindings.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the role bindings for a group"
         }
       }
     },
@@ -287,7 +315,8 @@
           "category": "Role Binding",
           "filename": "get-accounts-core-v1-groups-rolebindings-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a role binding for a group"
         }
       },
       "put": {
@@ -296,7 +325,8 @@
           "category": "Role Binding",
           "filename": "put-accounts-core-v1-groups-rolebindings-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a role binding for a group"
         }
       },
       "delete": {
@@ -305,7 +335,8 @@
           "category": "Role Binding",
           "filename": "delete-accounts-core-v1-groups-rolebindings-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a role binding for a group"
         }
       }
     },
@@ -316,7 +347,8 @@
           "category": "Execution Hook",
           "filename": "post-accounts-core-v1-executionhooks.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new execution hook"
         }
       },
       "get": {
@@ -325,7 +357,8 @@
           "category": "Execution Hook",
           "filename": "get-accounts-core-v1-executionhooks.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all execution hooks"
         }
       }
     },
@@ -336,7 +369,8 @@
           "category": "Execution Hook",
           "filename": "get-accounts-core-v1-executionhooks-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an execution hook"
         }
       },
       "put": {
@@ -345,7 +379,8 @@
           "category": "Execution Hook",
           "filename": "put-accounts-core-v1-executionhooks-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify an execution hook"
         }
       },
       "delete": {
@@ -354,7 +389,8 @@
           "category": "Execution Hook",
           "filename": "delete-accounts-core-v1-executionhooks-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete an execution hook"
         }
       }
     },
@@ -365,7 +401,8 @@
           "category": "Event",
           "filename": "get-accounts-core-v1-events.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all events"
         }
       }
     },
@@ -376,7 +413,8 @@
           "category": "Event",
           "filename": "get-accounts-core-v1-events-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an event"
         }
       }
     },
@@ -387,7 +425,8 @@
           "category": "Feature",
           "filename": "get-accounts-core-v1-features.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all features"
         }
       }
     },
@@ -398,7 +437,8 @@
           "category": "Feature",
           "filename": "get-accounts-core-v1-features-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a feature"
         }
       }
     },
@@ -409,7 +449,8 @@
           "category": "Hook Source",
           "filename": "post-accounts-core-v1-hooksources.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new hook source"
         }
       },
       "get": {
@@ -418,7 +459,8 @@
           "category": "Hook Source",
           "filename": "get-accounts-core-v1-hooksources.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all hook sources"
         }
       }
     },
@@ -429,7 +471,8 @@
           "category": "Hook Source",
           "filename": "get-accounts-core-v1-hooksources-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a hook source"
         }
       },
       "put": {
@@ -438,7 +481,8 @@
           "category": "Hook Source",
           "filename": "put-accounts-core-v1-hooksources-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a hook source"
         }
       },
       "delete": {
@@ -447,7 +491,8 @@
           "category": "Hook Source",
           "filename": "delete-accounts-core-v1-hooksources-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a hook source"
         }
       }
     },
@@ -458,7 +503,8 @@
           "category": "License",
           "filename": "post-accounts-core-v1-licenses.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new license"
         }
       },
       "get": {
@@ -467,7 +513,8 @@
           "category": "License",
           "filename": "get-accounts-core-v1-licenses.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all licenses"
         }
       }
     },
@@ -478,7 +525,8 @@
           "category": "License",
           "filename": "get-accounts-core-v1-licenses-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a license"
         }
       },
       "put": {
@@ -487,7 +535,8 @@
           "category": "License",
           "filename": "put-accounts-core-v1-licenses-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a license"
         }
       },
       "delete": {
@@ -496,7 +545,8 @@
           "category": "License",
           "filename": "delete-accounts-core-v1-licenses-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a license"
         }
       }
     },
@@ -507,7 +557,8 @@
           "category": "Notification",
           "filename": "get-accounts-core-v1-notifications.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all notifications"
         }
       }
     },
@@ -518,7 +569,8 @@
           "category": "Notification",
           "filename": "get-accounts-core-v1-notifications-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a notification"
         }
       }
     },
@@ -529,7 +581,8 @@
           "category": "Package",
           "filename": "post-accounts-core-v1-packages.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new package"
         }
       },
       "get": {
@@ -538,7 +591,8 @@
           "category": "Package",
           "filename": "get-accounts-core-v1-packages.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all packages"
         }
       }
     },
@@ -549,7 +603,8 @@
           "category": "Package",
           "filename": "get-accounts-core-v1-packages-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a package"
         }
       },
       "delete": {
@@ -558,7 +613,8 @@
           "category": "Package",
           "filename": "delete-accounts-core-v1-packages-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a package"
         }
       }
     },
@@ -569,7 +625,8 @@
           "category": "Role Binding",
           "filename": "post-accounts-core-v1-rolebindings.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new role binding"
         }
       },
       "get": {
@@ -578,7 +635,8 @@
           "category": "Role Binding",
           "filename": "get-accounts-core-v1-rolebindings.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all role bindings"
         }
       }
     },
@@ -589,7 +647,8 @@
           "category": "Role Binding",
           "filename": "get-accounts-core-v1-rolebindings-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a role binding"
         }
       },
       "put": {
@@ -598,7 +657,8 @@
           "category": "Role Binding",
           "filename": "put-accounts-core-v1-rolebindings-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a role binding"
         }
       },
       "delete": {
@@ -607,7 +667,8 @@
           "category": "Role Binding",
           "filename": "delete-accounts-core-v1-rolebindings-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a role binding"
         }
       }
     },
@@ -618,7 +679,8 @@
           "category": "Setting",
           "filename": "get-accounts-core-v1-settings.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all settings"
         }
       }
     },
@@ -629,7 +691,8 @@
           "category": "Setting",
           "filename": "get-accounts-core-v1-settings-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a setting"
         }
       },
       "put": {
@@ -638,7 +701,8 @@
           "category": "Setting",
           "filename": "put-accounts-core-v1-settings-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a setting"
         }
       }
     },
@@ -649,7 +713,8 @@
           "category": "Subscription",
           "filename": "post-accounts-core-v1-subscriptions.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new subscription"
         }
       },
       "get": {
@@ -658,7 +723,8 @@
           "category": "Subscription",
           "filename": "get-accounts-core-v1-subscriptions.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all subscriptions"
         }
       }
     },
@@ -669,7 +735,8 @@
           "category": "Subscription",
           "filename": "get-accounts-core-v1-subscriptions-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a subscription"
         }
       },
       "put": {
@@ -678,7 +745,8 @@
           "category": "Subscription",
           "filename": "put-accounts-core-v1-subscriptions-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a subscription"
         }
       },
       "delete": {
@@ -687,7 +755,8 @@
           "category": "Subscription",
           "filename": "delete-accounts-core-v1-subscriptions-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a subscription"
         }
       }
     },
@@ -698,7 +767,8 @@
           "category": "Upgrade",
           "filename": "get-accounts-core-v1-upgrades.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all upgrades"
         }
       }
     },
@@ -709,7 +779,8 @@
           "category": "Upgrade",
           "filename": "get-accounts-core-v1-upgrades-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an upgrade"
         }
       },
       "put": {
@@ -718,7 +789,8 @@
           "category": "Upgrade",
           "filename": "put-accounts-core-v1-upgrades-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify an upgrade"
         }
       }
     },
@@ -729,7 +801,8 @@
           "category": "User",
           "filename": "post-accounts-core-v1-users.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new user"
         }
       },
       "get": {
@@ -738,7 +811,8 @@
           "category": "User",
           "filename": "get-accounts-core-v1-users.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all users"
         }
       }
     },
@@ -749,7 +823,8 @@
           "category": "User",
           "filename": "get-accounts-core-v1-users-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a user"
         }
       },
       "put": {
@@ -758,7 +833,8 @@
           "category": "User",
           "filename": "put-accounts-core-v1-users-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a user"
         }
       },
       "delete": {
@@ -767,7 +843,8 @@
           "category": "User",
           "filename": "delete-accounts-core-v1-users-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a user"
         }
       }
     },
@@ -778,7 +855,8 @@
           "category": "Role Binding",
           "filename": "post-accounts-core-v1-users-rolebindings.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new role binding for a user"
         }
       },
       "get": {
@@ -787,7 +865,8 @@
           "category": "Role Binding",
           "filename": "get-accounts-core-v1-users-rolebindings.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the role bindings for a user"
         }
       }
     },
@@ -798,7 +877,8 @@
           "category": "Role Binding",
           "filename": "get-accounts-core-v1-users-rolebindings-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a role binding for a user"
         }
       },
       "put": {
@@ -807,7 +887,8 @@
           "category": "Role Binding",
           "filename": "put-accounts-core-v1-users-rolebindings-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a role binding for a user"
         }
       },
       "delete": {
@@ -816,7 +897,8 @@
           "category": "Role Binding",
           "filename": "delete-accounts-core-v1-users-rolebindings-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a role binding for a user"
         }
       }
     },
@@ -827,7 +909,8 @@
           "category": "Token",
           "filename": "post-accounts-core-v1-users-tokens.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new token for a user"
         }
       },
       "get": {
@@ -836,7 +919,8 @@
           "category": "Token",
           "filename": "get-accounts-core-v1-users-tokens.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the tokens for a user"
         }
       }
     },
@@ -847,7 +931,8 @@
           "category": "Token",
           "filename": "get-accounts-core-v1-users-tokens-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a token"
         }
       },
       "put": {
@@ -856,7 +941,8 @@
           "category": "Token",
           "filename": "put-accounts-core-v1-users-tokens-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a token"
         }
       },
       "delete": {
@@ -865,7 +951,8 @@
           "category": "Token",
           "filename": "delete-accounts-core-v1-users-tokens-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a token"
         }
       }
     },
@@ -876,7 +963,8 @@
           "category": "Unread Notification",
           "filename": "get-accounts-core-v1-users-unreadnotifications.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the unread notifications for a user"
         }
       }
     },
@@ -887,7 +975,8 @@
           "category": "Unread Notification",
           "filename": "get-accounts-core-v1-users-unreadnotifications-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an unread notification"
         }
       },
       "delete": {
@@ -896,7 +985,8 @@
           "category": "Unread Notification",
           "filename": "delete-accounts-core-v1-users-unreadnotifications-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete an unread notification"
         }
       }
     },
@@ -907,7 +997,8 @@
           "category": "Application Backup",
           "filename": "get-accounts-topology-v1-appbackups.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all application backups"
         }
       }
     },
@@ -918,7 +1009,8 @@
           "category": "Application Backup",
           "filename": "get-accounts-topology-v1-appbackups-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an application backup"
         }
       },
       "delete": {
@@ -927,7 +1019,8 @@
           "category": "Application Backup",
           "filename": "delete-accounts-topology-v1-appbackups-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete an application backup"
         }
       }
     },
@@ -938,7 +1031,8 @@
           "category": "Bucket",
           "filename": "post-accounts-topology-v1-buckets.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new bucket"
         }
       },
       "get": {
@@ -947,7 +1041,8 @@
           "category": "Bucket",
           "filename": "get-accounts-topology-v1-buckets.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all buckets"
         }
       }
     },
@@ -958,7 +1053,8 @@
           "category": "Bucket",
           "filename": "get-accounts-topology-v1-buckets-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a bucket"
         }
       },
       "put": {
@@ -967,7 +1063,8 @@
           "category": "Bucket",
           "filename": "put-accounts-topology-v1-buckets-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a bucket"
         }
       },
       "delete": {
@@ -976,7 +1073,8 @@
           "category": "Bucket",
           "filename": "delete-accounts-topology-v1-buckets-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a bucket"
         }
       }
     },
@@ -987,7 +1085,8 @@
           "category": "Cloud",
           "filename": "post-accounts-topology-v1-clouds.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new cloud"
         }
       },
       "get": {
@@ -996,7 +1095,8 @@
           "category": "Cloud",
           "filename": "get-accounts-topology-v1-clouds.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all clouds"
         }
       }
     },
@@ -1007,7 +1107,8 @@
           "category": "Cloud",
           "filename": "get-accounts-topology-v1-clouds-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a cloud"
         }
       },
       "put": {
@@ -1016,7 +1117,8 @@
           "category": "Cloud",
           "filename": "put-accounts-topology-v1-clouds-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a cloud"
         }
       },
       "delete": {
@@ -1025,7 +1127,8 @@
           "category": "Cloud",
           "filename": "delete-accounts-topology-v1-clouds-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a cloud"
         }
       }
     },
@@ -1036,7 +1139,8 @@
           "category": "Cluster",
           "filename": "post-accounts-topology-v1-clouds-clusters.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new cluster for a cloud"
         }
       },
       "get": {
@@ -1045,7 +1149,8 @@
           "category": "Cluster",
           "filename": "get-accounts-topology-v1-clouds-clusters.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the clusters for a cloud"
         }
       }
     },
@@ -1056,7 +1161,8 @@
           "category": "Cluster",
           "filename": "get-accounts-topology-v1-clouds-clusters-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a cluster for a cloud"
         }
       },
       "put": {
@@ -1065,7 +1171,8 @@
           "category": "Cluster",
           "filename": "put-accounts-topology-v1-clouds-clusters-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a cluster for a cloud"
         }
       },
       "delete": {
@@ -1074,7 +1181,8 @@
           "category": "Cluster",
           "filename": "delete-accounts-topology-v1-clouds-clusters-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a cluster for a cloud"
         }
       }
     },
@@ -1085,7 +1193,8 @@
           "category": "Cluster Node",
           "filename": "get-accounts-topology-v1-clouds-clusters-clusternodes.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the cluster nodes for a cloud"
         }
       }
     },
@@ -1096,7 +1205,8 @@
           "category": "Cluster Node",
           "filename": "get-accounts-topology-v1-clouds-clusters-clusternodes-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a cluster node for a cloud"
         }
       }
     },
@@ -1107,7 +1217,8 @@
           "category": "Storage Class",
           "filename": "get-accounts-topology-v1-clouds-clusters-storageclasses.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the storage classes for a cloud"
         }
       }
     },
@@ -1118,7 +1229,8 @@
           "category": "Storage Class",
           "filename": "get-accounts-topology-v1-clouds-clusters-storageclasses-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a storage class for a cloud"
         }
       }
     },
@@ -1129,7 +1241,8 @@
           "category": "Namespace",
           "filename": "get-accounts-topology-v1-clouds-clusters-namespaces.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the namespaces for a cloud"
         }
       }
     },
@@ -1140,7 +1253,8 @@
           "category": "Namespace",
           "filename": "get-accounts-topology-v1-clouds-clusters-namespaces-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a namespace for a cloud"
         }
       }
     },
@@ -1151,7 +1265,8 @@
           "category": "Cluster",
           "filename": "get-accounts-topology-v1-clusters.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all clusters"
         }
       }
     },
@@ -1162,7 +1277,8 @@
           "category": "Cluster",
           "filename": "get-accounts-topology-v1-clusters-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a cluster"
         }
       },
       "put": {
@@ -1171,7 +1287,8 @@
           "category": "Cluster",
           "filename": "put-accounts-topology-v1-clusters-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a cluster"
         }
       },
       "delete": {
@@ -1180,7 +1297,8 @@
           "category": "Cluster",
           "filename": "delete-accounts-topology-v1-clusters-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a cluster"
         }
       }
     },
@@ -1191,7 +1309,8 @@
           "category": "Cluster Node",
           "filename": "get-accounts-topology-v1-clusters-clusternodes.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the cluster nodes for a cluster"
         }
       }
     },
@@ -1202,7 +1321,8 @@
           "category": "Cluster Node",
           "filename": "get-accounts-topology-v1-clusters-clusternodes-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a cluster node for a cluster"
         }
       }
     },
@@ -1213,7 +1333,8 @@
           "category": "Storage Class",
           "filename": "get-accounts-topology-v1-clusters-storageclasses.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the storage classes for a cluster"
         }
       }
     },
@@ -1224,7 +1345,8 @@
           "category": "Storage Class",
           "filename": "get-accounts-topology-v1-clusters-storageclasses-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a storage class for a cluster"
         }
       }
     },
@@ -1235,7 +1357,8 @@
           "category": "Namespace",
           "filename": "get-accounts-topology-v1-clusters-namespaces.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the namespaces for a cluster"
         }
       }
     },
@@ -1246,7 +1369,8 @@
           "category": "Namespace",
           "filename": "get-accounts-topology-v1-clusters-namespaces-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a namespace for a cluster"
         }
       }
     },
@@ -1257,7 +1381,8 @@
           "category": "Namespace",
           "filename": "get-accounts-topology-v1-namespaces.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all namespaces"
         }
       }
     },
@@ -1268,7 +1393,8 @@
           "category": "Namespace",
           "filename": "get-accounts-topology-v1-namespaces-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a namespace"
         }
       }
     },
@@ -1279,7 +1405,8 @@
           "category": "Managed Cluster",
           "filename": "post-accounts-topology-v1-managedclusters.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new managed cluster"
         }
       },
       "get": {
@@ -1288,7 +1415,8 @@
           "category": "Managed Cluster",
           "filename": "get-accounts-topology-v1-managedclusters.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all managed clusters"
         }
       }
     },
@@ -1299,7 +1427,8 @@
           "category": "Managed Cluster",
           "filename": "get-accounts-topology-v1-managedclusters-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a managed cluster"
         }
       },
       "put": {
@@ -1308,7 +1437,8 @@
           "category": "Managed Cluster",
           "filename": "put-accounts-topology-v1-managedclusters-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a managed cluster"
         }
       },
       "delete": {
@@ -1317,7 +1447,8 @@
           "category": "Managed Cluster",
           "filename": "delete-accounts-topology-v1-managedclusters-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a managed cluster"
         }
       }
     },
@@ -1328,7 +1459,8 @@
           "category": "App",
           "filename": "post-accounts-topology-v2-managedclusters-apps.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new app for a managed cluster"
         }
       },
       "get": {
@@ -1337,7 +1469,8 @@
           "category": "App",
           "filename": "get-accounts-topology-v2-managedclusters-apps.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the apps for a managed cluster"
         }
       }
     },
@@ -1348,7 +1481,8 @@
           "category": "App",
           "filename": "get-accounts-topology-v2-managedclusters-apps-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an app for a managed cluster"
         }
       },
       "put": {
@@ -1357,7 +1491,8 @@
           "category": "App",
           "filename": "put-accounts-topology-v2-managedclusters-apps-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify an app for a managed cluster"
         }
       },
       "delete": {
@@ -1366,7 +1501,8 @@
           "category": "App",
           "filename": "delete-accounts-topology-v2-managedclusters-apps-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete an app for a managed cluster"
         }
       }
     },
@@ -1377,7 +1513,8 @@
           "category": "Application Asset",
           "filename": "get-accounts-topology-v1-managedclusters-apps-appassets.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the application assets for a managed cluster"
         }
       }
     },
@@ -1388,7 +1525,8 @@
           "category": "Application Asset",
           "filename": "get-accounts-topology-v1-managedclusters-apps-appassets-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an application asset for a managed cluster"
         }
       }
     },
@@ -1399,7 +1537,8 @@
           "category": "Cluster Node",
           "filename": "get-accounts-topology-v1-managedclusters-clusternodes.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the cluster nodes for a managed cluster"
         }
       }
     },
@@ -1410,7 +1549,8 @@
           "category": "Cluster Node",
           "filename": "get-accounts-topology-v1-managedclusters-clusternodes-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a cluster node for a managed cluster"
         }
       }
     },
@@ -1421,7 +1561,8 @@
           "category": "Storage Class",
           "filename": "get-accounts-topology-v1-managedclusters-storageclasses.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the storage classes for a managed cluster"
         }
       }
     },
@@ -1432,7 +1573,8 @@
           "category": "Storage Class",
           "filename": "get-accounts-topology-v1-managedclusters-storageclasses-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a storage class for a managed cluster"
         }
       }
     },
@@ -1443,7 +1585,8 @@
           "category": "Volume",
           "filename": "get-accounts-topology-v1-managedclusters-volumes.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the volumes for a managed cluster"
         }
       }
     },
@@ -1454,7 +1597,8 @@
           "category": "Volume",
           "filename": "get-accounts-topology-v1-managedclusters-volumes-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a volume for a managed cluster"
         }
       }
     },
@@ -1465,7 +1609,8 @@
           "category": "Namespace",
           "filename": "get-accounts-topology-v1-managedclusters-namespaces.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the namespaces for a managed cluster"
         }
       }
     },
@@ -1476,7 +1621,8 @@
           "category": "Namespace",
           "filename": "get-accounts-topology-v1-managedclusters-namespaces-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a namespace for a managed cluster"
         }
       }
     },
@@ -1487,7 +1633,8 @@
           "category": "Kubernetes API Resource",
           "filename": "get-accounts-topology-v1-managedclusters-apiresources.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the K8s API resources for a managed cluster"
         }
       }
     },
@@ -1498,7 +1645,8 @@
           "category": "Kubernetes API Resource",
           "filename": "get-accounts-topology-v1-managedclusters-apiresources-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a K8s API resource"
         }
       }
     },
@@ -1509,7 +1657,8 @@
           "category": "Storage Backend",
           "filename": "post-accounts-topology-v1-storagebackends.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new storage backend"
         }
       },
       "get": {
@@ -1518,7 +1667,8 @@
           "category": "Storage Backend",
           "filename": "get-accounts-topology-v1-storagebackends.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all storage backends"
         }
       }
     },
@@ -1529,7 +1679,8 @@
           "category": "Storage Backend",
           "filename": "get-accounts-topology-v1-storagebackends-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a storage backend"
         }
       },
       "put": {
@@ -1538,7 +1689,8 @@
           "category": "Storage Backend",
           "filename": "put-accounts-topology-v1-storagebackends-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a storage backend"
         }
       },
       "delete": {
@@ -1547,7 +1699,8 @@
           "category": "Storage Backend",
           "filename": "delete-accounts-topology-v1-storagebackends-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a storage backend"
         }
       }
     },
@@ -1558,7 +1711,8 @@
           "category": "Volume",
           "filename": "get-accounts-topology-v1-storagebackends-volumes.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the volumes for a storage backend"
         }
       }
     },
@@ -1569,7 +1723,8 @@
           "category": "Volume",
           "filename": "get-accounts-topology-v1-storagebackends-volumes-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a volume for a storage backend"
         }
       }
     },
@@ -1580,7 +1735,8 @@
           "category": "Volume",
           "filename": "get-accounts-topology-v1-volumes.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all volumes"
         }
       }
     },
@@ -1591,7 +1747,8 @@
           "category": "Volume",
           "filename": "get-accounts-topology-v1-volumes-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a volume"
         }
       }
     },
@@ -1602,7 +1759,8 @@
           "category": "AppMirror",
           "filename": "post-accounts-k8s-v1-appmirrors.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new AppMirror resource"
         }
       },
       "get": {
@@ -1611,7 +1769,8 @@
           "category": "AppMirror",
           "filename": "get-accounts-k8s-v1-appmirrors.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all AppMirror resources"
         }
       }
     },
@@ -1622,7 +1781,8 @@
           "category": "AppMirror",
           "filename": "get-accounts-k8s-v1-appmirrors-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an AppMirror resource"
         }
       },
       "put": {
@@ -1631,7 +1791,8 @@
           "category": "AppMirror",
           "filename": "put-accounts-k8s-v1-appmirrors-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify an AppMirror resource"
         }
       },
       "delete": {
@@ -1640,7 +1801,8 @@
           "category": "AppMirror",
           "filename": "delete-accounts-k8s-v1-appmirrors-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete an AppMirror resource"
         }
       }
     },
@@ -1651,7 +1813,8 @@
           "category": "App",
           "filename": "post-accounts-k8s-v2-apps.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new app"
         }
       },
       "get": {
@@ -1660,7 +1823,8 @@
           "category": "App",
           "filename": "get-accounts-k8s-v2-apps.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all apps"
         }
       }
     },
@@ -1671,7 +1835,8 @@
           "category": "App",
           "filename": "get-accounts-k8s-v2-apps-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an app"
         }
       },
       "put": {
@@ -1680,7 +1845,8 @@
           "category": "App",
           "filename": "put-accounts-k8s-v2-apps-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify an app"
         }
       },
       "delete": {
@@ -1689,7 +1855,8 @@
           "category": "App",
           "filename": "delete-accounts-k8s-v2-apps-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete an app"
         }
       }
     },
@@ -1700,7 +1867,8 @@
           "category": "Application Asset",
           "filename": "get-accounts-k8s-v1-apps-appassets.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the application assets for an app"
         }
       }
     },
@@ -1711,7 +1879,8 @@
           "category": "Application Asset",
           "filename": "get-accounts-k8s-v1-apps-appassets-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an application asset for an app"
         }
       }
     },
@@ -1722,7 +1891,8 @@
           "category": "AppMirror",
           "filename": "post-accounts-k8s-v1-apps-appmirrors.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new AppMirror resource for an app"
         }
       },
       "get": {
@@ -1731,7 +1901,8 @@
           "category": "AppMirror",
           "filename": "get-accounts-k8s-v1-apps-appmirrors.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the AppMirror resources for an app"
         }
       }
     },
@@ -1742,7 +1913,8 @@
           "category": "AppMirror",
           "filename": "get-accounts-k8s-v1-apps-appmirrors-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an AppMirror resource for an app"
         }
       },
       "put": {
@@ -1751,7 +1923,8 @@
           "category": "AppMirror",
           "filename": "put-accounts-k8s-v1-apps-appmirrors-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify an AppMirror resource for an app"
         }
       },
       "delete": {
@@ -1760,7 +1933,8 @@
           "category": "AppMirror",
           "filename": "delete-accounts-k8s-v1-apps-appmirrors-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete an AppMirror resource for an app"
         }
       }
     },
@@ -1771,7 +1945,8 @@
           "category": "Volume",
           "filename": "get-accounts-k8s-v1-apps-volumes.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the volumes for an app"
         }
       }
     },
@@ -1782,7 +1957,8 @@
           "category": "Volume",
           "filename": "get-accounts-k8s-v1-apps-volumes-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a volume for an app"
         }
       }
     },
@@ -1793,7 +1969,8 @@
           "category": "Schedule",
           "filename": "post-accounts-k8s-v1-apps-schedules.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new schedule for an app"
         }
       },
       "get": {
@@ -1802,7 +1979,8 @@
           "category": "Schedule",
           "filename": "get-accounts-k8s-v1-apps-schedules.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the schedules for an app"
         }
       }
     },
@@ -1813,7 +1991,8 @@
           "category": "Schedule",
           "filename": "get-accounts-k8s-v1-apps-schedules-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a schedule"
         }
       },
       "put": {
@@ -1822,7 +2001,8 @@
           "category": "Schedule",
           "filename": "put-accounts-k8s-v1-apps-schedules-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a schedule"
         }
       },
       "delete": {
@@ -1831,7 +2011,8 @@
           "category": "Schedule",
           "filename": "delete-accounts-k8s-v1-apps-schedules-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a schedule"
         }
       }
     },
@@ -1842,7 +2023,8 @@
           "category": "Application Backup",
           "filename": "post-accounts-k8s-v1-apps-appbackups.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new application backup for an app"
         }
       },
       "get": {
@@ -1851,7 +2033,8 @@
           "category": "Application Backup",
           "filename": "get-accounts-k8s-v1-apps-appbackups.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the application backups for an app"
         }
       }
     },
@@ -1862,7 +2045,8 @@
           "category": "Application Backup",
           "filename": "get-accounts-k8s-v1-apps-appbackups-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an application backup for an app"
         }
       },
       "delete": {
@@ -1871,7 +2055,8 @@
           "category": "Application Backup",
           "filename": "delete-accounts-k8s-v1-apps-appbackups-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete an application backup for an app"
         }
       }
     },
@@ -1882,7 +2067,8 @@
           "category": "Application Snapshot",
           "filename": "post-accounts-k8s-v1-apps-appsnaps.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new application snapshot for an app"
         }
       },
       "get": {
@@ -1891,7 +2077,8 @@
           "category": "Application Snapshot",
           "filename": "get-accounts-k8s-v1-apps-appsnaps.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the application snapshots for an app"
         }
       }
     },
@@ -1902,7 +2089,8 @@
           "category": "Application Snapshot",
           "filename": "get-accounts-k8s-v1-apps-appsnaps-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an application snapshot"
         }
       },
       "delete": {
@@ -1911,7 +2099,8 @@
           "category": "Application Snapshot",
           "filename": "delete-accounts-k8s-v1-apps-appsnaps-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete an application snapshot"
         }
       }
     },
@@ -1922,7 +2111,8 @@
           "category": "Execution Hook",
           "filename": "post-accounts-k8s-v1-apps-executionhooks.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new execution hook for an app"
         }
       },
       "get": {
@@ -1931,7 +2121,8 @@
           "category": "Execution Hook",
           "filename": "get-accounts-k8s-v1-apps-executionhooks.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the execution hooks for an app"
         }
       }
     },
@@ -1942,7 +2133,8 @@
           "category": "Execution Hook",
           "filename": "get-accounts-k8s-v1-apps-executionhooks-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an execution hook for an app"
         }
       },
       "put": {
@@ -1951,7 +2143,8 @@
           "category": "Execution Hook",
           "filename": "put-accounts-k8s-v1-apps-executionhooks-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify an execution hook for an app"
         }
       },
       "delete": {
@@ -1960,7 +2153,8 @@
           "category": "Execution Hook",
           "filename": "delete-accounts-k8s-v1-apps-executionhooks-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete an execution hook for an app"
         }
       }
     },
@@ -1971,7 +2165,8 @@
           "category": "Execution Hook Override",
           "filename": "post-accounts-k8s-v1-apps-executionhookoverrides.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new execution hook override resource for an app"
         }
       },
       "get": {
@@ -1980,7 +2175,8 @@
           "category": "Execution Hook Override",
           "filename": "get-accounts-k8s-v1-apps-executionhookoverrides.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the execution hook override resources for an app"
         }
       }
     },
@@ -1991,7 +2187,8 @@
           "category": "Execution Hook Override",
           "filename": "get-accounts-k8s-v1-apps-executionhookoverrides-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an execution hook override resource"
         }
       },
       "put": {
@@ -2000,7 +2197,8 @@
           "category": "Execution Hook Override",
           "filename": "put-accounts-k8s-v1-apps-executionhookoverrides-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify an execution hook override resource"
         }
       },
       "delete": {
@@ -2009,7 +2207,8 @@
           "category": "Execution Hook Override",
           "filename": "delete-accounts-k8s-v1-apps-executionhookoverrides-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete an execution hook override resource"
         }
       }
     },
@@ -2020,7 +2219,8 @@
           "category": "LDAP Group",
           "filename": "get-accounts-core-v1-ldapgroups.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all LDAP groups"
         }
       }
     },
@@ -2031,7 +2231,8 @@
           "category": "LDAP Group",
           "filename": "get-accounts-core-v1-ldapgroups-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an LDAP group"
         }
       }
     },
@@ -2042,7 +2243,8 @@
           "category": "LDAP User",
           "filename": "get-accounts-core-v1-ldapusers.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all LDAP users"
         }
       }
     },
@@ -2053,7 +2255,8 @@
           "category": "LDAP User",
           "filename": "get-accounts-core-v1-ldapusers-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an LDAP user"
         }
       }
     },
@@ -2064,7 +2267,8 @@
           "category": "Task",
           "filename": "get-accounts-core-v1-tasks.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List all tasks"
         }
       }
     },
@@ -2075,7 +2279,8 @@
           "category": "Task",
           "filename": "get-accounts-core-v1-tasks-.html",
           "explorer": false,
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a task"
         }
       }
     },
@@ -2085,7 +2290,8 @@
           "title": "Create a new user for a group",
           "category": "User",
           "filename": "post-accounts-core-v1-groups-users.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new user for a group"
         }
       },
       "get": {
@@ -2093,7 +2299,8 @@
           "title": "List the users for a group",
           "category": "User",
           "filename": "get-accounts-core-v1-groups-users.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the users for a group"
         }
       }
     },
@@ -2103,7 +2310,8 @@
           "title": "Retrieve a user for a group",
           "category": "User",
           "filename": "get-accounts-core-v1-groups-users-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a user for a group"
         }
       },
       "put": {
@@ -2111,7 +2319,8 @@
           "title": "Modify a user for a group",
           "category": "User",
           "filename": "put-accounts-core-v1-groups-users-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a user for a group"
         }
       },
       "delete": {
@@ -2119,7 +2328,8 @@
           "title": "Delete a user for a group",
           "category": "User",
           "filename": "delete-accounts-core-v1-groups-users-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a user for a group"
         }
       }
     },
@@ -2129,7 +2339,8 @@
           "title": "Create a new role binding for a user in a group",
           "category": "Role Binding",
           "filename": "post-accounts-core-v1-groups-users-rolebindings.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new role binding for a user in a group"
         }
       },
       "get": {
@@ -2137,7 +2348,8 @@
           "title": "List the role bindings for a user in a group",
           "category": "Role Binding",
           "filename": "get-accounts-core-v1-groups-users-rolebindings.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the role bindings for a user in a group"
         }
       }
     },
@@ -2147,7 +2359,8 @@
           "title": "Retrieve a role binding for a user in a group",
           "category": "Role Binding",
           "filename": "get-accounts-core-v1-groups-users-rolebindings-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a role binding for a user in a group"
         }
       },
       "put": {
@@ -2155,7 +2368,8 @@
           "title": "Modify a role binding for a user in a group",
           "category": "Role Binding",
           "filename": "put-accounts-core-v1-groups-users-rolebindings-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a role binding for a user in a group"
         }
       },
       "delete": {
@@ -2163,7 +2377,8 @@
           "title": "Delete a role binding for a user in a group",
           "category": "Role Binding",
           "filename": "delete-accounts-core-v1-groups-users-rolebindings-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a role binding for a user in a group"
         }
       }
     },
@@ -2173,7 +2388,8 @@
           "title": "Create a new token for a user in a group",
           "category": "Token",
           "filename": "post-accounts-core-v1-groups-users-tokens.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new token for a user in a group"
         }
       },
       "get": {
@@ -2181,7 +2397,8 @@
           "title": "List the tokens for a user in a group",
           "category": "Token",
           "filename": "get-accounts-core-v1-groups-users-tokens.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the tokens for a user in a group"
         }
       }
     },
@@ -2191,7 +2408,8 @@
           "title": "Retrieve a token for a user in a group",
           "category": "Token",
           "filename": "get-accounts-core-v1-groups-users-tokens-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a token for a user in a group"
         }
       },
       "put": {
@@ -2199,7 +2417,8 @@
           "title": "Modify a token for a user in a group",
           "category": "Token",
           "filename": "put-accounts-core-v1-groups-users-tokens-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a token for a user in a group"
         }
       },
       "delete": {
@@ -2207,7 +2426,8 @@
           "title": "Delete a token for a user in a group",
           "category": "Token",
           "filename": "delete-accounts-core-v1-groups-users-tokens-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a token for a user in a group"
         }
       }
     },
@@ -2217,7 +2437,8 @@
           "title": "List the unread notifications for a user in a group",
           "category": "Unread Notification",
           "filename": "get-accounts-core-v1-groups-users-unreadnotifications.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the unread notifications for a user in a group"
         }
       }
     },
@@ -2227,7 +2448,8 @@
           "title": "Retrieve an unread notification for a user in a group",
           "category": "Unread Notification",
           "filename": "get-accounts-core-v1-groups-users-unreadnotifications-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an unread notification for a user in a group"
         }
       },
       "delete": {
@@ -2235,7 +2457,8 @@
           "title": "Delete an unread notification for a user in a group",
           "category": "Unread Notification",
           "filename": "delete-accounts-core-v1-groups-users-unreadnotifications-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete an unread notification for a user in a group"
         }
       }
     },
@@ -2289,7 +2512,8 @@
           "title": "Create a new group for a user",
           "category": "Group",
           "filename": "post-accounts-core-v1-users-groups.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new group for a user"
         }
       },
       "get": {
@@ -2297,7 +2521,8 @@
           "title": "List groups for a user",
           "category": "Group",
           "filename": "get-accounts-core-v1-users-groups.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List groups for a user"
         }
       }
     },
@@ -2307,7 +2532,8 @@
           "title": "Retrieve a group for a user",
           "category": "Group",
           "filename": "get-accounts-core-v1-users-groups-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a group for a user"
         }
       },
       "put": {
@@ -2315,7 +2541,8 @@
           "title": "Modify a group for a user",
           "category": "Group",
           "filename": "put-accounts-core-v1-users-groups-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a group for a user"
         }
       },
       "delete": {
@@ -2323,7 +2550,8 @@
           "title": "Delete a group for a user",
           "category": "Group",
           "filename": "delete-accounts-core-v1-users-groups-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a group for a user"
         }
       }
     },
@@ -2333,7 +2561,8 @@
           "title": "Create a new role binding for a group associated with a user",
           "category": "Role Binding",
           "filename": "post-accounts-core-v1-users-groups-rolebindings.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Create a new role binding for a group associated with a user"
         }
       },
       "get": {
@@ -2341,7 +2570,8 @@
           "title": "List the role bindings for a group associated with a user",
           "category": "Role Binding",
           "filename": "get-accounts-core-v1-users-groups-rolebindings.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the role bindings for a group associated with a user"
         }
       }
     },
@@ -2351,7 +2581,8 @@
           "title": "Retrieve a role binding for a group associated with a user",
           "category": "Role Binding",
           "filename": "get-accounts-core-v1-users-groups-rolebindings-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve a role binding for a group associated with a user"
         }
       },
       "put": {
@@ -2359,7 +2590,8 @@
           "title": "Modify a role binding for a group associated with a user",
           "category": "Role Binding",
           "filename": "put-accounts-core-v1-users-groups-rolebindings-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Modify a role binding for a group associated with a user"
         }
       },
       "delete": {
@@ -2367,7 +2599,8 @@
           "title": "Delete a role binding for a group associated with a user",
           "category": "Role Binding",
           "filename": "delete-accounts-core-v1-users-groups-rolebindings-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Delete a role binding for a group associated with a user"
         }
       }
     },
@@ -2421,7 +2654,8 @@
           "title": "List the application assets for an application backup",
           "category": "Application Asset",
           "filename": "get-accounts-topology-v1-appbackups-appassets.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the application assets for an application backup"
         }
       }
     },
@@ -2431,7 +2665,8 @@
           "title": "Retrieve an application asset from an application backup",
           "category": "Application Asset",
           "filename": "get-accounts-topology-v1-appbackups-appassets-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an application asset from an application backup"
         }
       }
     },
@@ -2441,7 +2676,8 @@
           "title": "List the application assets from an application backup for an app",
           "category": "Application Asset",
           "filename": "get-accounts-k8s-v1-apps-appbackups-appassets.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List the application assets from an application backup for an app"
         }
       }
     },
@@ -2451,7 +2687,8 @@
           "title": "Retrieve an application asset from an application backup for an app",
           "category": "Application Asset",
           "filename": "get-accounts-k8s-v1-apps-appbackups-appassets-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an application asset from an application backup for an app"
         }
       }
     },
@@ -2461,7 +2698,8 @@
           "title": "List application assets for an application snapshot",
           "category": "Application Asset",
           "filename": "get-accounts-k8s-v1-apps-appsnaps-appassets.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "List application assets for an application snapshot"
         }
       }
     },
@@ -2471,9 +2709,217 @@
           "title": "Retrieve an application asset for an application snapshot and app",
           "category": "Application Asset",
           "filename": "get-accounts-k8s-v1-apps-appsnaps-appassets-.html",
-          "subcategory": null
+          "subcategory": null,
+          "sidebar_title": "Retrieve an application asset for an application snapshot and app"
         }
       }
     }
-  }
+  },
+  "categories": [
+    {
+      "id": "metrics",
+      "title": "Astra API (ACC) metrics endpoints",
+      "permalink": "metrics_endpoints.html"
+    },
+    {
+      "id": "account",
+      "title": "Astra API (ACC) account endpoints",
+      "permalink": "account_endpoints.html"
+    },
+    {
+      "id": "kubernetes api resource",
+      "title": "Astra API (ACC) kubernetes API resource endpoints",
+      "permalink": "kubernetes_api_resource_endpoints.html"
+    },
+    {
+      "id": "application asset",
+      "title": "Astra API (ACC) application asset endpoints",
+      "permalink": "application_asset_endpoints.html"
+    },
+    {
+      "id": "application backup",
+      "title": "Astra API (ACC) application backup endpoints",
+      "permalink": "application_backup_endpoints.html"
+    },
+    {
+      "id": "appmirror",
+      "title": "Astra API (ACC) AppMirror endpoints",
+      "permalink": "appmirror_endpoints.html"
+    },
+    {
+      "id": "application snapshot",
+      "title": "Astra API (ACC) application Snapshot endpoints",
+      "permalink": "application_snapshot_endpoints.html"
+    },
+    {
+      "id": "app",
+      "title": "Astra API (ACC) app endpoints",
+      "permalink": "app_endpoints.html"
+    },
+    {
+      "id": "asup",
+      "title": "Astra API (ACC) ASUP endpoints",
+      "permalink": "asup_endpoints.html"
+    },
+    {
+      "id": "bucket",
+      "title": "Astra API (ACC) bucket endpoints",
+      "permalink": "bucket_endpoints.html"
+    },
+    {
+      "id": "certificate",
+      "title": "Astra API (ACC) certificate endpoints",
+      "permalink": "certificate_endpoints.html"
+    },
+    {
+      "id": "cloud",
+      "title": "Astra API (ACC) cloud endpoints",
+      "permalink": "cloud_endpoints.html"
+    },
+    {
+      "id": "cluster node",
+      "title": "Astra API (ACC) cluster node endpoints",
+      "permalink": "cluster_node_endpoints.html"
+    },
+    {
+      "id": "cluster",
+      "title": "Astra API (ACC) cluster endpoints",
+      "permalink": "cluster_endpoints.html"
+    },
+    {
+      "id": "credential",
+      "title": "Astra API (ACC) credential endpoints",
+      "permalink": "credential_endpoints.html"
+    },
+    {
+      "id": "entitlement",
+      "title": "Astra API (ACC) entitlement endpoints",
+      "permalink": "entitlement_endpoints.html"
+    },
+    {
+      "id": "event",
+      "title": "Astra API (ACC) event endpoints",
+      "permalink": "event_endpoints.html"
+    },
+    {
+      "id": "execution hook override",
+      "title": "Astra API (ACC) execution hook override endpoints",
+      "permalink": "execution_hook_override_endpoints.html"
+    },
+    {
+      "id": "execution hook",
+      "title": "Astra API (ACC) execution hook endpoints",
+      "permalink": "execution_hook_endpoints.html"
+    },
+    {
+      "id": "feature",
+      "title": "Astra API (ACC) feature endpoints",
+      "permalink": "feature_endpoints.html"
+    },
+    {
+      "id": "group",
+      "title": "Astra API (ACC) group endpoints",
+      "permalink": "group_endpoints.html"
+    },
+    {
+      "id": "hook source",
+      "title": "Astra API (ACC) hook source endpoints",
+      "permalink": "hook_source_endpoints.html"
+    },
+    {
+      "id": "ldap group",
+      "title": "Astra API (ACC) LDAP group endpoints",
+      "permalink": "ldap_group_endpoints.html"
+    },
+    {
+      "id": "ldap user",
+      "title": "Astra API (ACC) LDAP user endpoints",
+      "permalink": "ldap_user_endpoints.html"
+    },
+    {
+      "id": "license",
+      "title": "Astra API (ACC) license endpoints",
+      "permalink": "license_endpoints.html"
+    },
+    {
+      "id": "managed cluster",
+      "title": "Astra API (ACC) managed cluster endpoints",
+      "permalink": "managed_cluster_endpoints.html"
+    },
+    {
+      "id": "namespace",
+      "title": "Astra API (ACC) namespace endpoints",
+      "permalink": "namespace_endpoints.html"
+    },
+    {
+      "id": "notification",
+      "title": "Astra API (ACC) notification endpoints",
+      "permalink": "notification_endpoints.html"
+    },
+    {
+      "id": "package",
+      "title": "Astra API (ACC) package endpoints",
+      "permalink": "package_endpoints.html"
+    },
+    {
+      "id": "role binding",
+      "title": "Astra API (ACC) role binding endpoints",
+      "permalink": "role_binding_endpoints.html"
+    },
+    {
+      "id": "schedule",
+      "title": "Astra API (ACC) schedule endpoints",
+      "permalink": "schedule_endpoints.html"
+    },
+    {
+      "id": "setting",
+      "title": "Astra API (ACC) setting endpoints",
+      "permalink": "setting_endpoints.html"
+    },
+    {
+      "id": "storage backend",
+      "title": "Astra API (ACC) storage backend endpoints",
+      "permalink": "storage_backend_endpoints.html"
+    },
+    {
+      "id": "storage class",
+      "title": "Astra API (ACC) storage class endpoints",
+      "permalink": "storage_class_endpoints.html"
+    },
+    {
+      "id": "subscription",
+      "title": "Astra API (ACC) subscription endpoints",
+      "permalink": "subscription_endpoints.html"
+    },
+    {
+      "id": "task",
+      "title": "Astra API (ACC) task endpoints",
+      "permalink": "task_endpoints.html"
+    },
+    {
+      "id": "token",
+      "title": "Astra API (ACC) token endpoints",
+      "permalink": "token_endpoints.html"
+    },
+    {
+      "id": "unread notification",
+      "title": "Astra API (ACC) unread notification endpoints",
+      "permalink": "unread_notification_endpoints.html"
+    },
+    {
+      "id": "upgrade",
+      "title": "Astra API (ACC) upgrade endpoints",
+      "permalink": "upgrade_endpoints.html"
+    },
+    {
+      "id": "user",
+      "title": "Astra API (ACC) user endpoints",
+      "permalink": "user_endpoints.html"
+    },
+    {
+      "id": "volume",
+      "title": "Astra API (ACC) volume endpoints",
+      "permalink": "volume_endpoints.html"
+    }
+  ]
 }
