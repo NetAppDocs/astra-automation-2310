@@ -7,6 +7,7 @@ summary: 'Astra API (ACC) overview'
 ---
 
 = Astra API (ACC) overview
+:imagesdir: ../media/
 
 
 

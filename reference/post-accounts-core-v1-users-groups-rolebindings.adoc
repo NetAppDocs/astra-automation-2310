@@ -7,6 +7,7 @@ summary: 'Create a new role binding for a group associated with a user'
 ---
 
 = Create a new role binding for a group associated with a user
+:imagesdir: ../media/
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/accounts/{account_id}/core/v1/users/{user_id}/groups/{group_id}/roleBindings`#
 
