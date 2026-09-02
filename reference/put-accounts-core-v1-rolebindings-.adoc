@@ -7,6 +7,7 @@ summary: 'Modify a role binding'
 ---
 
 = Modify a role binding
+:imagesdir: ../media/
 
 [.api-doc-operation .api-doc-operation-put]#PUT# [.api-doc-code-block]#`/accounts/{account_id}/core/v1/roleBindings/{roleBinding_id}`#
 
